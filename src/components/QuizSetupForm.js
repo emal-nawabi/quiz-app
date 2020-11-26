@@ -12,7 +12,7 @@ const QuizSetupForm = () => {
             <input
               name='questionAmount'
               type='number'
-              max='5'
+              max='6'
               className='form-input'
               value={quizDetail.questionAmount}
               onChange={handleChange}
